@@ -73,3 +73,9 @@ fetch(
 ```
 
 and this lets you fidddle with the parts of the fetch more easily.
+
+## FAQ
+
+**Q: Why curl to fetch and not fetch to fetch?**
+
+**A:** I don't know an easy way to do the latter. There's a library for the former.

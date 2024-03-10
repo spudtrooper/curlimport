@@ -2,7 +2,7 @@
 
 A CLI tool and library for converting curl commands into decomposed `fetch` statements.
 
-The motivation is to help in reverse engineering backends and iterate going from requests in the dev console to something more structured, e.g. as explained in the article [fromcurltogo/](https://spudtrooper.github.io/articles/fromcurltogo).
+The motivation is to help in reverse engineering backends and iterate going from requests in the dev console to something more structured, e.g. as explained [here](https://spudtrooper.github.io/articles/fromcurltogo).
 
 ## Install
 

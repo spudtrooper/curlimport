@@ -70,7 +70,7 @@ null
 (async function() {
   const resp = await <%- fetchOutput _%>;
   const text = await resp.text();
-  console.log(text);
+  console.log(JSON.stringify(json, null, 2));
  })();
  `.trim();
     const data = { fetchOutput };
@@ -82,7 +82,7 @@ null
 (async function() {
   const resp = await <%- fetchOutput _%>;
   const json = await resp.json();
-  console.log(json);
+  console.log(JSON.stringify(json, null, 2));
 })();
 `.trim();
     const data = { fetchOutput };

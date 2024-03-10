@@ -13,7 +13,7 @@ The motivation is to help in reverse engineering backends and iterate going from
 or
 
 ```
-yarn global add https://github.com/spudtrooper/curimport
+yarn global add https://github.com/spudtrooper/curlimport
 ```
 
 ## Usage

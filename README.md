@@ -80,6 +80,12 @@ fetch(
 
 and this lets you fidddle with the parts of the fetch more easily.
 
+To test the output:
+
+```bash
+curlimport convert --curl_file ../data/input/GetSeatmap.sh --output_json | node
+```
+
 ## FAQ
 
 **Q: Why curl to fetch and not fetch to fetch?**

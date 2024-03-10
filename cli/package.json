@@ -1,6 +1,6 @@
 {
   "name": "curlimport-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
@@ -11,7 +11,7 @@
     "js-beautify": "^1.15.1",
     "parse-curl": "^0.2.6",
     "parse-location": "^1.0.5",
-    "curlimport-lib": "^1.0.0"
+    "curlimport-lib": "^1.0.1"
   },
   "bin": {
     "curlimport": "./dist/index.js"

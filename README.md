@@ -7,6 +7,12 @@ The motivation is to help in reverse engineering backends and iterate going from
 ## Install
 
 ```bash
+yarn global add ts-node
+```
+
+then...
+
+```bash
 ./scripts/install.sh
 ```
 

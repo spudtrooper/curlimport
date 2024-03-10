@@ -1,4 +1,4 @@
-#!/usr/bin/env -S yarn --silent ts-node
+#!/usr/bin/env ts-node
 
 import { program } from "commander";
 

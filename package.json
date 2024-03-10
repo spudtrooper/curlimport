@@ -1,0 +1,36 @@
+{
+  "name": "curlimport",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "lib",
+    "cli"
+  ],
+  "bin": {
+    "curlimport": "./cli/dist/index.js"
+  },
+  "scripts": {
+    "prebuild": "yarn clean",
+    "clean": "yarn --cwd lib clean; yarn --cwd cli clean; rm -rf dist",
+    "build": "yarn --cwd lib build; yarn --cwd cli build; tsc",
+    "watch": "tsc-watch --build",
+    "format": "prettier . --write"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/typescript": "^2.0.0",
+    "prettier": "^3.2.4",
+    "ts-node": "^10.9.2",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.3.3"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "singleQuote": false,
+    "tabWidth": 2,
+    "trailingComma": "all"
+  }
+}

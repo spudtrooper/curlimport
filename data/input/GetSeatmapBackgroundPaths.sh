@@ -1,0 +1,13 @@
+curl 'https://www.metopera.org/api/seating/GetSeatmapBackgroundPaths?seatmapId=ea8fad31-bae8-4d36-a15d-f939af56d51b' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cache-control: no-cache' \
+  -H 'cookie: INSTITUTION_LOGOUT=True; ASP.NET_SessionId=XXXX;' \
+  -H 'dnt: 1' \
+  -H 'pragma: no-cache' \
+  -H 'referer: https://www.metopera.org/smart-seat/?performanceNumber=17416' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'

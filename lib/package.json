@@ -1,0 +1,40 @@
+{
+  "name": "curlimport-lib",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "cookie": "^0.6.0",
+    "ejs": "^3.1.9",
+    "escape-quotes": "^1.0.2",
+    "js-beautify": "^1.15.1",
+    "parse-curl": "^0.2.6",
+    "parse-location": "^1.0.5"
+  },
+  "scripts": {
+    "prebuild": "yarn clean",
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "watch": "tsc-watch --build"
+  },
+  "devDependencies": {
+    "@types/cookie": "^0.6.0",
+    "@types/ejs": "^3.1.5",
+    "@types/js-beautify": "^1.14.3",
+    "@types/node": "^20.11.25",
+    "@types/typescript": "^2.0.0",
+    "node": "^21.7.1",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "tsc-watch": "^6.0.4",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.2"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "singleQuote": false,
+    "tabWidth": 2,
+    "trailingComma": "all"
+  }
+}

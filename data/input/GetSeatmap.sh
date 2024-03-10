@@ -1,0 +1,19 @@
+curl 'https://www.metopera.org/api/seating/GetSeatmap' \
+  -H 'authority: www.metopera.org' \
+  -H 'accept: application/json' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'cookie: INSTITUTION_LOGOUT=True; ASP.NET_SessionId=XXXX;' \
+  -H 'dnt: 1' \
+  -H 'origin: https://www.metopera.org' \
+  -H 'pragma: no-cache' \
+  -H 'referer: https://www.metopera.org/smart-seat/?performanceNumber=17416' \
+  -H 'sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36' \
+  --data '{"itemType":0,"itemId":17416,"minPrice":37,"maxPrice":505,"allowSeparatedSeats":false,"priceTypeQuantities":[],"venueLevels":[],"selectedAllLevels":true,"allowAisleAccessSelected":false,"additionalSeatingOptions":[{"seatingOptionGroupId":"e91e88f7-0559-4c23-80d2-440e7436f163","numberRequested":0,"selectedSeatingOptionIds":[],"groupSelected":false},{"seatingOptionGroupId":"acba04fe-d661-41ed-ac22-57b05749c76d","numberRequested":0,"selectedSeatingOptionIds":[],"groupSelected":false},{"seatingOptionGroupId":"d91d3092-08cd-46fb-a399-6f29dbf2f6e5","numberRequested":0,"selectedSeatingOptionIds":[],"groupSelected":false},{"seatingOptionGroupId":"83cf326d-a57a-439a-9806-a79e2a745482","numberRequested":0,"selectedSeatingOptionIds":[],"groupSelected":false},{"seatingOptionGroupId":"c93455e7-219b-490f-8d62-b0f07c631f11","numberRequested":0,"selectedSeatingOptionIds":[],"groupSelected":false},{"seatingOptionGroupId":"9ad25213-c9de-4a72-bccc-b8a34979b9ac","numberRequested":0,"selectedSeatingOptionIds":[],"groupSelected":false},{"seatingOptionGroupId":"5fb4b86b-384a-4314-a1b6-ba6030f4bc30","numberRequested":0,"selectedSeatingOptionIds":[],"groupSelected":false}],"seatMapId":"61c11214-b499-41bc-9157-9e727463db4e","language":"DEFAULT","seatsToIgnore":[],"isSyosOnly":true}'
